@@ -1,5 +1,5 @@
 from cerberus import Validator
-from src.errors.error_types.http_unprocessable import HttpUnprocessableEntityError
+from src.errors.error_types.http_unprocessable_entity import HttpUnprocessableEntityError
 
 def tag_creator_validator(request:any) -> None:
     body_validator = Validator({
