@@ -5,9 +5,9 @@ class HttpRequest:
             self,
             header: Dict = None,
             body: Dict = None,
-            quarry_params: Dict = None,
+            query_params: Dict = None
         ) -> None:
         self.header = header
         self.body = body
-        self.quarry_params = quarry_params
+        self.query_params = query_params
         
